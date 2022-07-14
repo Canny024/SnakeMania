@@ -4,7 +4,7 @@ let inputDir = { x: 0, y: 0 };
 const foodSound = new Audio('food.mp3')
 const gameOverSound = new Audio('gameover.mp3')
 const moveSound = new Audio('move.mp3');
-let speed = 7;
+let speed = 6;
 let lastPaintTime = 0;
 let snakeArr = [
     { x: 9, y: 9 }
